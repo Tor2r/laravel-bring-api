@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-bring-api` will be documented in this file.
 
+## v1.0.0 - 2026-02-12
+
+First release. Se readme.md for information.
+
 ## 0.1.1 - 2026-02-12
 
 ### Added
