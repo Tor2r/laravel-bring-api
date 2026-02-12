@@ -42,7 +42,7 @@ it('resolves via the facade', function () {
 it('rejects empty postal codes', function () {
     $api = app(BringApi::class);
     $api->postalCode('');
-})->throws(BringApiException::class, 'Postal code must be exactly 4 digits.');
+})->throws(BringApiException::class, 'Postal cannot be empty.');
 
 /*
 |--------------------------------------------------------------------------

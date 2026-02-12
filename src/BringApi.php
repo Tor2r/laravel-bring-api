@@ -41,6 +41,10 @@ class BringApi
      */
     public function postalCode(string $postalCode, ?string $countryCode = null): array
     {
+        if (empty($postalCode)) {
+            throw new BringApiException('Postal cannot be empty.');
+        }
+
         $country = $countryCode ?? $this->countryCode;
 
         try {
