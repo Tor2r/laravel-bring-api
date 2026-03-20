@@ -8,6 +8,8 @@
 A Laravel package for interacting with the [Bring API](https://developer.bring.com/api/). Fetch postal code information and addresses for Norwegian
 locations.
 
+Supports Laravel 11, 12 and 13.
+
 Supported Countries
 
 - NO - Norway (default)
